@@ -12,15 +12,22 @@ ul {
 
 li {
   display: inline;
-  border-left: solid 1px;
-  border-color: gray;
-  padding-left: 5px;
-  padding-right: 3px;
 }
 
 a {
   text-decoration: none;
-  color: #08c;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2, h3 {
+  font-size: 26px;
 }
 
 
@@ -35,8 +42,9 @@ a {
 .hero {
   background-image: url("../images/your_verse_hero.jpg");
   background-color: #b6b6fc80;
-  background-position: 0px 620px;
-  padding: 300px 0px 300px 0px;
+  background-position: 0px 600px;
+  background-overflow: visible;
+  padding: 0px 0px 200px 0px;
 }
 
 .row {
@@ -59,6 +67,31 @@ a {
   height: 100%;
   overflow: hidden;
   object-fit: cover;
+}
+
+.footer-item {
+  border-left: solid 1px;
+  border-color: gray;
+  padding-left: 5px;
+  padding-right: 3px;
+}
+
+.footer-link {
+  color: #08c;
+}
+
+.nav-item {
+  padding: 10px 30px 10px 30px;
+  background-color: gray;
+  color: white;
+  font-weight: 700;
+}
+
+.apple-logo {
+  position: relative;
+  top: 5px;
+  width: 14px;
+  height: auto;
 }
 
 
@@ -98,4 +131,8 @@ a {
 
 .no-border {
   border: none;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
 }
