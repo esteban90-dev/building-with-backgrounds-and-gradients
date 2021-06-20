@@ -81,18 +81,22 @@ h2, h3 {
 }
 
 .nav-item {
-  padding: 10px 30px 10px 30px;
-  background-color: gray;
+  background: linear-gradient(rgb(130, 130, 130), rgb(100, 100, 100) 50%, rgb(130, 130, 130) 50%, rgb(130, 130, 130) 100%);
   color: white;
   font-weight: 700;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-color: rgb(100, 100, 100);
+  box-shadow: inset 1px 0px rgb(139, 139, 139);
 }
 
-.apple-logo {
-  position: relative;
-  top: 5px;
-  width: 14px;
-  height: auto;
+.nav-link {
+  display: block;
+  width: 100%;
+  padding: 10px 30px 10px 30px;
 }
+
 
 
 /*------------------------UTILITIES--------------------------*/
@@ -131,6 +135,10 @@ h2, h3 {
 
 .no-border {
   border: none;
+}
+
+.pt-100 {
+  padding-top: 100px;
 }
 
 .pb-0 {
