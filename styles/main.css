@@ -39,10 +39,20 @@ h2, h3 {
   margin: 0 auto;
 }
 
+.nav-wrapper {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.heading-wrapper {
+  width: 700px;
+  margin: 0 auto;
+}
+
 .hero {
   background-image: url("../images/your_verse_hero.jpg");
   background-color: #b6b6fc80;
-  background-position: 0px 600px;
+  background-position: 0px 630px;
   background-overflow: visible;
   padding: 0px 0px 200px 0px;
 }
@@ -57,6 +67,10 @@ h2, h3 {
 
 .align-items-center {
   align-items: center;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
 }
 
 
@@ -80,21 +94,58 @@ h2, h3 {
   color: #08c;
 }
 
-.nav-item {
+.nav {
   background: linear-gradient(rgb(130, 130, 130), rgb(100, 100, 100) 50%, rgb(130, 130, 130) 50%, rgb(130, 130, 130) 100%);
-  color: white;
-  font-weight: 700;
+  border-radius: 5px;
   border-top: 1px solid;
   border-bottom: 1px solid;
-  border-left: 1px solid;
   border-color: rgb(100, 100, 100);
-  box-shadow: inset 1px 0px rgb(139, 139, 139);
+  box-shadow: 0px 1px 5px rgb(100, 100, 100);
+  color: white;
+  font-weight: 700;
+}
+
+.nav-item-first {
+  border: none;
 }
 
 .nav-link {
   display: block;
-  width: 100%;
-  padding: 10px 30px 10px 30px;
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+  width: 115px;
+  color: white;
+  border-left: 1px solid;
+  border-color: rgb(100, 100, 100);
+}
+
+.nav-search-container {
+  border-left: 1px solid;
+  border-color: rgb(100, 100, 100);
+  padding: 6px 0px 6px 0px;
+}
+
+.nav-search-input-container {
+  width: 120px;
+  border: solid 1px;
+  border-color: transparent;
+  border-radius: 12px;
+  box-shadow: inset 0px 1.5px 1px 1px rgb(48, 48, 48), inset 0px -1px 0px .25px rgb(158, 158, 158);
+  padding-left: 10px;
+  margin: 0px 15px 0px 15px;
+}
+
+.nav-search-input {
+  color: white;
+  width: 80px;
+  background-color: transparent;
+  border: none;
+}
+
+.fa-apple {
+  font-size: 20px;
+  color: white;
+  padding: 0px 40px 0px 40px;
 }
 
 
@@ -111,6 +162,10 @@ h2, h3 {
 
 .mt-20 {
   margin-top: 20px;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
 }
 
 .ml-01 {
